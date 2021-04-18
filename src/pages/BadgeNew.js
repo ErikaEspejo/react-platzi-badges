@@ -1,9 +1,10 @@
 import React from 'react';
 
-import './styles.css/BadgeNew.css'
-import header from '../images/badge-header.svg'
-import Navbar from '../components/Navbar'
-import Badge from '../components/Badge'
+import './styles.css/BadgeNew.css';
+import header from '../images/badge-header.svg';
+import Navbar from '../components/Navbar';
+import BadgeForm from '../components/BadgeForm';
+import Badge from '../components/Badge';
 
 class BadgeNew extends React.Component {
   render() {
@@ -25,6 +26,9 @@ class BadgeNew extends React.Component {
                 twitter = "Erika__Espejo"
                 avatarUrl = "https://www.gravatar.com/userimage/205043051/a0fdffa22d693bbd759fd543ac0b5752?size=120"
               />
+            </div>
+            <div className="col">
+              <BadgeForm/>
             </div>
           </div>
         </div>
