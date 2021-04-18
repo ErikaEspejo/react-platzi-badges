@@ -1,14 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 
+import './global.css'
 import Badge from './components/Badge';
-
-const element = (
-  <div>
-    <h1>Hola soy Erika</h1>
-    <p>Soy ingeniera</p>
-  </div>
-);
 
 const container = document.getElementById('app'); //app se convierte en el contenedor
 
